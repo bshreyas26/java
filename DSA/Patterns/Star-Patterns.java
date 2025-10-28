@@ -163,12 +163,8 @@ public class Main {
           System.out.print(" ");
         }
 
-        for(int j=i;j<=N-i+1;j++){
+        for(int j=1;j<=2*(N-i)-1;j++){
           System.out.print("*");
-        }
-
-         for(int k=1;k<=i;k++){
-          System.out.print(" ");
         }
         System.out.println();
       }
